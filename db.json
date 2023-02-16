@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "titulo": "O labirinto do Logcat",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img2.png",
-        "link": "https://www.youtube.com/embed/ypvGqZGJBls"
+        "titulo": "Velozes e Furiosos X",
+        "capa": "https://i.ytimg.com/vi/a1w9x5U88jU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBH0ZkE9Az01m7D2Clso2EV9Xg2Jw",
+        "link": "https://youtu.be/a1w9x5U88jU"
     },
     {
         "id": 2,
-        "titulo": "Um componente no espaço",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img1.png",
-        "link": "https://www.youtube.com/embed/jK0uiQ1ZQQQ"
+        "titulo": "The Flash",
+        "capa": "https://i.ytimg.com/vi/LmX6wxmqMKI/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2zKGCmqN73q89oZTeAlfKt2I8vA",
+        "link": "https://youtu.be/JPaGymqJyfA"
     },
     {
         "id": 3,
-        "titulo": "O poderoso JavaScript",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img4.png",
-        "link": "https://www.youtube.com/embed/N1BSG02z-Mw"
+        "titulo": "John Wick 4",
+        "capa": "https://i.ytimg.com/an_webp/PmvYcdDM4NE/mqdefault_6s.webp?du=3000&sqp=CNaZup8G&rs=AOn4CLDiDnN6RghZoyl3H4dtcKHe5EooSw",
+        "link": "https://youtu.be/PmvYcdDM4NE"
     },
     {
         "id": 4,
-        "titulo": "Dart, o Caçador de Andróides",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img3.png",
-        "link": "https://www.youtube.com/embed/LLmBWjF6F8M"
+        "titulo": "Guardians of the Galaxy: vol III",
+        "capa": "https://i.ytimg.com/vi/JPaGymqJyfA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBlAqpjUhM2hHow6TazD2huTL0voQ",
+        "link": "https://youtu.be/LmX6wxmqMKI"
     }
 ]
