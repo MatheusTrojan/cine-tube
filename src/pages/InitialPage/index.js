@@ -1,8 +1,10 @@
 // import styles from 'InitialPage.module.css'
 
+import Header from "components/Header";
+
 function InitialPage() {
   return (
-    <div>Criando página inicial</div>
+    <Header />
   )
 }
 
