@@ -1,11 +1,15 @@
 .footer {
+    background-color: var(--black);
     display: flex;
+    heigth: 50px;
     justify-content: center;
-    background-color: var(--preto);
+    position: fixed;
+    top: calc(100% - 50px);
+    width: 100%;
 }
 
 .footer h2 {
     font-weight: 400;
     font-size: 18px;
-    color: var(--branco);
+    color: var(--white);
 }

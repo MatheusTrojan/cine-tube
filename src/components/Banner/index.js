@@ -1,9 +1,11 @@
-import banner from "./banner-home.png"
 import styles from "./Banner.module.css"
 
-function Banner() {
+function Banner({ image }) {
   return (
-    <img src={banner} alt="banner da home page" className={styles.banner}/>
+    <div 
+      className={styles.banner} 
+      style={{ backgroundImage: `url("/images/banner-${image}.png")` }} 
+    />
   )
 }
 
