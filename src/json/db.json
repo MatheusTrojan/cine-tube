@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "titulo": "Velozes e Furiosos X",
-        "capa": "https://i.ytimg.com/vi/a1w9x5U88jU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBH0ZkE9Az01m7D2Clso2EV9Xg2Jw",
+        "title": "Velozes e Furiosos X",
+        "coverImage": "https://i.ytimg.com/vi/a1w9x5U88jU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBH0ZkE9Az01m7D2Clso2EV9Xg2Jw",
         "link": "https://youtu.be/a1w9x5U88jU"
     },
     {
         "id": 2,
-        "titulo": "The Flash",
-        "capa": "https://i.ytimg.com/vi/LmX6wxmqMKI/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2zKGCmqN73q89oZTeAlfKt2I8vA",
+        "title": "The Flash",
+        "coverImage": "https://i.ytimg.com/vi/LmX6wxmqMKI/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2zKGCmqN73q89oZTeAlfKt2I8vA",
         "link": "https://youtu.be/JPaGymqJyfA"
     },
     {
         "id": 3,
-        "titulo": "John Wick 4",
-        "capa": "https://i.ytimg.com/an_webp/PmvYcdDM4NE/mqdefault_6s.webp?du=3000&sqp=CNaZup8G&rs=AOn4CLDiDnN6RghZoyl3H4dtcKHe5EooSw",
+        "title": "John Wick 4",
+        "coverImage": "https://i.ytimg.com/vi/4Wy6xyhe4V4/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCcrFAC4gl6Kjaxv8IbYibzUiZsWw",
         "link": "https://youtu.be/PmvYcdDM4NE"
     },
     {
         "id": 4,
-        "titulo": "Guardians of the Galaxy: vol III",
-        "capa": "https://i.ytimg.com/vi/JPaGymqJyfA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBlAqpjUhM2hHow6TazD2huTL0voQ",
+        "title": "Guardians of the Galaxy: vol III",
+        "coverImage": "https://i.ytimg.com/vi/JPaGymqJyfA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBlAqpjUhM2hHow6TazD2huTL0voQ",
         "link": "https://youtu.be/LmX6wxmqMKI"
     }
 ]
