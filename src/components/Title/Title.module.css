@@ -1,5 +1,6 @@
-.text h1 {
+.text{
     font-size: 32px;
     font-weight: 500;
+    margin: 1em 0;
     text-align: center;
 }
