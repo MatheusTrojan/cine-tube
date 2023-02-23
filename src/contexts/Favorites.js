@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 export const FavoritesContext = createContext();
 FavoritesContext.displayName = "Favoritos";
@@ -13,4 +13,27 @@ export default function FavoritesProvider({ children }) {
             {children}
         </FavoritesContext.Provider>
     )
+}
+
+export function useFavoriteContext() {
+    const { favorite, setFavorite } = useContext(FavoritesContext);
+
+    function addFavorite(newFavorite) {
+        const alreadyFavorite = favorite.some(item => item.id === newFavorite.id)
+
+        let newList = [...favorite];
+
+        if (!alreadyFavorite) {
+            newList.push(newFavorite)
+            return setFavorite(newList)
+        }
+
+        newList.splice(newList.indexOf(newFavorite), 1)
+        return setFavorite(newList)
+    }
+
+    return {
+        favorite,
+        addFavorite
+    }
 }
