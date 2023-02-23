@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from "react";
 
 export const FavoritesContext = createContext();
-FavoritesContext.displayName = "Favoritos";
+FavoritesContext.displayName = "Favorites";
 
 export default function FavoritesProvider({ children }) {
     const [favorite, setFavorite] = useState([]);
@@ -28,7 +28,7 @@ export function useFavoriteContext() {
             return setFavorite(newList)
         }
 
-        newList.splice(newList.indexOf(newFavorite), 1)
+        newList = favorite.filter((item) => item.id !== newFavorite.id)
         return setFavorite(newList)
     }
 
