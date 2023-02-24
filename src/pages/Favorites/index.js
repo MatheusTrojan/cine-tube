@@ -1,7 +1,6 @@
 import Banner from "components/Banner";
 import Title from "components/Title";
 import styles from "./Favorites.module.css"
-import videos from "json/db.json"
 import Card from "components/Card";
 import { useFavoriteContext } from "contexts/Favorites";
 

@@ -5,7 +5,12 @@
     justify-content: space-between;
     padding: 0 0 1em 0;
     margin-top: .5em;
+    transition: 0.4s ease-in-out;
     width: 300px;
+}
+
+.container:hover {
+    scale: 1.05;
 }
 
 .coverImage {
@@ -17,5 +22,6 @@
 }
 
 .favorite {
+    cursor: pointer;
     width: 25px;
 }
