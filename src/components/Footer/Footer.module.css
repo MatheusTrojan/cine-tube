@@ -1,7 +1,7 @@
 .footer {
     background-color: var(--black);
     display: flex;
-    heigth: 50px;
+    height: 50px;
     justify-content: center;
     position: fixed;
     top: calc(100% - 50px);
