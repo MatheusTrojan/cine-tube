@@ -5,6 +5,7 @@ import Footer from "components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Container from "components/Container";
 import FavoritesProvider from "contexts/Favorites";
+import Player from "components/Player";
 
 
 function AppRoutes() {
@@ -18,6 +19,7 @@ function AppRoutes() {
                     <Routes>
                         <Route path="/" element={<InitialPage />}></Route>
                         <Route path="/favoritos" element={<Favorites />}></Route>
+                        <Route path="/:id" element={<Player />}></Route>
                     </Routes>
                     
                 </FavoritesProvider>

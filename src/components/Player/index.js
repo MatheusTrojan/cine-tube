@@ -13,4 +13,4 @@ function Player() {
   )
 }
 
-export default PLayer;
+export default Player;
