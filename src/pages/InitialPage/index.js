@@ -2,9 +2,20 @@ import styles from "./InitialPage.module.css"
 import Banner from "components/Banner";
 import Title from "components/Title";
 import Card from "components/Card";
-import videos from "json/db.json"
+import { useEffect, useState } from "react";
 
 function InitialPage() {
+
+   const [videos, setVideos] = useState([]);
+
+   useEffect(() => {
+      fetch("https://my-json-server.typicode.com/MatheusTrojan/cine-tube-api/videos")
+         .then(response => response.json())
+         .then(data => {
+            setVideos(data)
+         })
+   }, [])
+
    return (
       <>
          <Banner image="home"/>

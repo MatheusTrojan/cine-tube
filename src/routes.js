@@ -9,14 +9,14 @@ import BasePage from "pages/BasePage";
 function AppRoutes() {
     return (
         <BrowserRouter>
-                    <Routes>
-                        <Route path="/" element={<BasePage />}>
-                            <Route index element={<InitialPage />} />
-                            <Route path="favoritos" element={<Favorites />} />
-                            <Route path=":id" element={<Player />} />
-                            <Route path="*" element={<NotFound />} />
-                        </Route>
-                    </Routes>
+            <Routes>
+                <Route path="/" element={<BasePage />}>
+                    <Route index element={<InitialPage />} />
+                    <Route path="favoritos" element={<Favorites />} />
+                    <Route path=":id" element={<Player />} />
+                    <Route path="*" element={<NotFound />} />
+                </Route>
+            </Routes>
         </BrowserRouter>
     )
 }
